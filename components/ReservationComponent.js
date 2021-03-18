@@ -82,6 +82,9 @@ class Reservation extends Component {
                         mode={'date'}
                         display='default'
                         onChange={(event, selectedDate) => {
+                            if (event.type === 'dismissed') {
+                                this.setState({showCalendar: false})
+                            }
                             selectedDate && this.setState({date: selectedDate, showCalendar: false});
                         }}
                         style={styles.formItem}
