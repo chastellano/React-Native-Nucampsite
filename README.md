@@ -1,6 +1,6 @@
 # React Native Nucampsite
 
-This is a cross-platform mobile app developed using React Native, Expo, and Android Studio. The app’s principal resources are kept in an external JSON server, it uses Redux for managing state data. CRUD operations are performed on database resources using the Fetch API. Redux's Persist library is used to take a snapshot of state data that is saved to the user’s local storage each time a reducer function is called.
+This is a cross-platform mobile app for a campground website developed using React Native, Expo, and Android Studio. The app’s principal resources are kept in an external JSON server, it uses Redux for managing state data. CRUD operations are performed on database resources using the Fetch API. Redux's Persist library is used to take a snapshot of state data that is saved to the user’s local storage each time a reducer function is called.
 
 ![Screenshot (68)](https://user-images.githubusercontent.com/73765884/122509630-1a85f300-cfd2-11eb-9a12-7ed62588bccb.png)
 <br><br><br>
